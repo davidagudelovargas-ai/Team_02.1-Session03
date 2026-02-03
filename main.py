@@ -1,43 +1,39 @@
-"""
-Authentication module for Speckle.
-This module provides a reusable get_client() function for all other scripts.
-
-Usage:
-    from main import get_client
-    client = get_client()
-"""
-
-import os
-from dotenv import load_dotenv
 from specklepy.api.client import SpeckleClient
 
+# Create client
+client = SpeckleClient(host="app.speckle.systems")
 
-def get_client() -> SpeckleClient:
-    """
-    Authenticate and return a SpeckleClient instance.
-    
-    Requires SPECKLE_TOKEN in environment or .env file.
-    Optionally set SPECKLE_SERVER (defaults to app.speckle.systems).
-    """
-    # Load environment variables from a local .env file, if present
-    load_dotenv()
+# Authenticate with token
+token = "62e7eae2f934c9ebd98451282e5029ef29b8d5e8bf"  # Replace with your token
+client.authenticate_with_token(token)
 
-    # Get token and server host from environment
-    token = os.environ.get("SPECKLE_TOKEN")
-    server_host = os.environ.get("SPECKLE_SERVER", "app.speckle.systems")
+print(f"✓ Authenticated as {client.account.userInfo.name}")
 
-    if not token:
-        raise ValueError("Set SPECKLE_TOKEN in your .env file and re-run.")
 
-    # Authenticate
-    client = SpeckleClient(host=server_host)
+#a1cd06bae2 workspace idfrom specklepy.api.client import SpeckleClient
+
+def get_client():
+    client = SpeckleClient(host="app.speckle.systems")
+    token = "62e7eae2f934c9ebd98451282e5029ef29b8d5e8bf"  # Replace with your token
     client.authenticate_with_token(token)
-
     return client
 
+# Puedes dejar este bloque para pruebas manuales
+if __name__ == "__main__":
+    client = get_client()
+    print(f"✓ Authenticated as {client.account.userInfo.name}")
+
+#a1cd06bae2 workspace idfrom specklepy.api.client import SpeckleClient
+
+def get_client():
+    client = SpeckleClient(host="app.speckle.systems")
+    token = "62e7eae2f934c9ebd98451282e5029ef29b8d5e8bf"  # Replace with your token
+    client.authenticate_with_token(token)
+    return client
 
 if __name__ == "__main__":
-    # Test authentication when running this script directly
     client = get_client()
-    user = client.active_user.get()
-    print(f"✓ Logged in as {user.name} on {client.url}")
+    print(f"✓ Authenticated as {client.account.userInfo.name}")
+
+#a1cd06bae2 workspace id
+

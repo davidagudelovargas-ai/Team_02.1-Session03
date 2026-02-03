@@ -20,7 +20,7 @@ PROJECT_ID = "128262a20c"
 MODEL_ID = "e09d9dbeca"
 
 # TODO: Replace with the applicationId of an object to duplicate
-TARGET_APPLICATION_ID = "bc8888b1-6f26-46bb-a3a5-ddeff1cd2ed3"
+TARGET_APPLICATION_ID = "a1242b70-aec1-4df0-90ea-c1e9d15104c4"
 
 # Offset for the duplicated object (move to the right = positive X)
 # Note: The model uses millimeters, so 50 meters = 50000 mm

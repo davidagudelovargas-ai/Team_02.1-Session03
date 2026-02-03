@@ -13,7 +13,8 @@ from specklepy.core.api.inputs.version_inputs import CreateVersionInput
 
 
 PROJECT_ID = "128262a20c"
-MODEL_ID = "e09d9dbeca"
+MODEL_ID = "daf5ef44af"
+VERSION_ID = "latest"
 
 
 # ----------------------------------
