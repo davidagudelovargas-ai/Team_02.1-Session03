@@ -23,18 +23,17 @@
       "name": "Grasshopper Model",
       "depth": 0,
       "properties": {
-        "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Collections.RootCollection",
-        "processed_by": "Zeynep Sezen Dursun",
-        "applicationId": "8565d779-8779-4fff-9cab-02dceb21c89e",
+        "id": "4a745bf2f76c2227b74bb71805b68a3a",
+        "version": 3,
+        "name": "Grasshopper Model",
         "properties": {
           "Tower": "Team 02.2"
         },
-        "id": "4a745bf2f76c2227b74bb71805b68a3a",
-        "totalChildrenCount": 0,
         "analysis_date": "2026-02-02",
-        "custom_property": "Team_02.1",
-        "name": "Grasshopper Model",
-        "version": 3
+        "applicationId": "8565d779-8779-4fff-9cab-02dceb21c89e",
+        "processed_by": "Zeynep Sezen Dursun",
+        "speckle_type": "Speckle.Core.Models.Collections.Collection:Speckle.Core.Models.Collections.RootCollection",
+        "custom_property": "Team_02.1"
       }
     },
     {
@@ -44,14 +43,14 @@
       "name": "New_Module",
       "depth": 1,
       "properties": {
-        "speckle_type": "Speckle.Core.Models.Collections.Collection",
-        "applicationId": "59816964-f9f0-4edd-9fbd-a2017ecb06c9",
         "element_index": 0,
-        "topology": "0-1 ",
         "id": "c4cbda31e1321c358342565c9d87ebb7",
-        "totalChildrenCount": 0,
         "custom_tag": "Element_000",
-        "name": "New_Module"
+        "totalChildrenCount": 0,
+        "name": "New_Module",
+        "applicationId": "59816964-f9f0-4edd-9fbd-a2017ecb06c9",
+        "speckle_type": "Speckle.Core.Models.Collections.Collection",
+        "topology": "0-1 "
       }
     },
     {
@@ -61,18 +60,18 @@
       "name": "",
       "depth": 2,
       "properties": {
-        "speckle_type": "Objects.Geometry.BrepX",
-        "applicationId": "bdc9f901-a729-4efb-81ae-3defecb4c49b",
+        "units": "m",
+        "area": 891.3274153887023,
+        "id": "c208f9c084207efc21f6f5aba1d35c54",
+        "totalChildrenCount": 0,
+        "name": "",
         "volume": 0,
         "properties": {
           "Module": "02",
           "Desginer": "Hala"
         },
-        "units": "m",
-        "id": "c208f9c084207efc21f6f5aba1d35c54",
-        "totalChildrenCount": 0,
-        "area": 891.3274153887023,
-        "name": ""
+        "applicationId": "bdc9f901-a729-4efb-81ae-3defecb4c49b",
+        "speckle_type": "Objects.Geometry.BrepX"
       }
     },
     {
@@ -82,14 +81,14 @@
       "name": "Old_Module",
       "depth": 1,
       "properties": {
-        "speckle_type": "Speckle.Core.Models.Collections.Collection",
-        "applicationId": "b90e3484-8424-48ec-b986-772a5c512a6d",
         "element_index": 1,
-        "topology": "0;0-2 ",
         "id": "e7ee92051e23384997f0b0a082e2bb5b",
-        "totalChildrenCount": 0,
         "custom_tag": "Element_001",
-        "name": "Old_Module"
+        "totalChildrenCount": 0,
+        "name": "Old_Module",
+        "applicationId": "b90e3484-8424-48ec-b986-772a5c512a6d",
+        "speckle_type": "Speckle.Core.Models.Collections.Collection",
+        "topology": "0;0-2 "
       }
     },
     {
@@ -99,18 +98,18 @@
       "name": "",
       "depth": 2,
       "properties": {
-        "speckle_type": "Objects.Geometry.BrepX",
-        "applicationId": "ecd12e6f-9d74-4ba1-b627-ead73707baae",
+        "units": "m",
+        "area": 1319.8672315959714,
+        "id": "4c888eeb5fb7cd7b8dee351d5f8a4eb1",
+        "totalChildrenCount": 0,
+        "name": "",
         "volume": 3428.3185296581496,
         "properties": {
           "Module": "03",
           "Desginer": "Nihan"
         },
-        "units": "m",
-        "id": "4c888eeb5fb7cd7b8dee351d5f8a4eb1",
-        "totalChildrenCount": 0,
-        "area": 1319.8672315959714,
-        "name": ""
+        "applicationId": "ecd12e6f-9d74-4ba1-b627-ead73707baae",
+        "speckle_type": "Objects.Geometry.BrepX"
       }
     },
     {
@@ -120,18 +119,18 @@
       "name": "",
       "depth": 2,
       "properties": {
-        "speckle_type": "Objects.Geometry.BrepX",
-        "applicationId": "bc8888b1-6f26-46bb-a3a5-ddeff1cd2ed3",
+        "units": "m",
+        "area": 1319.8672315959716,
+        "id": "f5c5a96bc01a5e235552b216db654ddc",
+        "totalChildrenCount": 0,
+        "name": "",
         "volume": 3428.3185296581523,
         "properties": {
           "Module": "01",
           "Desginer": "Zeynep"
         },
-        "units": "m",
-        "id": "f5c5a96bc01a5e235552b216db654ddc",
-        "totalChildrenCount": 0,
-        "area": 1319.8672315959716,
-        "name": ""
+        "applicationId": "bc8888b1-6f26-46bb-a3a5-ddeff1cd2ed3",
+        "speckle_type": "Objects.Geometry.BrepX"
       }
     },
     {
@@ -141,18 +140,18 @@
       "name": "_Copy",
       "depth": 1,
       "properties": {
-        "speckle_type": "Base",
-        "applicationId": "1bf4e67b-0047-42ef-92bd-0012282890ac",
+        "units": "m",
+        "area": 1319.8672315959716,
+        "id": "56ad79c3e97b1d03da983bfadb231bb9",
+        "totalChildrenCount": 0,
+        "name": "_Copy",
         "volume": 3428.3185296581523,
         "properties": {
           "Module": "01",
           "Desginer": "Zeynep"
         },
-        "units": "m",
-        "id": "56ad79c3e97b1d03da983bfadb231bb9",
-        "totalChildrenCount": 0,
-        "area": 1319.8672315959716,
-        "name": "_Copy"
+        "applicationId": "1bf4e67b-0047-42ef-92bd-0012282890ac",
+        "speckle_type": "Base"
       }
     },
     {
@@ -162,18 +161,18 @@
       "name": "_Copy",
       "depth": 1,
       "properties": {
-        "speckle_type": "Base",
-        "applicationId": "dd8f9a2b-7cef-4fe3-8c57-7e8fad12f8c8",
+        "units": "m",
+        "area": 1319.8672315959716,
+        "id": "c10b38ae0bb34fa13ec70736f781a943",
+        "totalChildrenCount": 0,
+        "name": "_Copy",
         "volume": 3428.3185296581523,
         "properties": {
           "Module": "01",
           "Desginer": "Zeynep"
         },
-        "units": "m",
-        "id": "c10b38ae0bb34fa13ec70736f781a943",
-        "totalChildrenCount": 0,
-        "area": 1319.8672315959716,
-        "name": "_Copy"
+        "applicationId": "dd8f9a2b-7cef-4fe3-8c57-7e8fad12f8c8",
+        "speckle_type": "Base"
       }
     },
     {
@@ -183,18 +182,18 @@
       "name": "_Copy",
       "depth": 1,
       "properties": {
-        "speckle_type": "Base",
-        "applicationId": "41ae5fbb-83e0-4e92-be5a-383448bfc3f9",
+        "units": "m",
+        "area": 1319.8672315959716,
+        "id": "a32b161c4aa9388ba32a06b4d183cdaa",
+        "totalChildrenCount": 0,
+        "name": "_Copy",
         "volume": 3428.3185296581523,
         "properties": {
           "Module": "01",
           "Desginer": "Zeynep"
         },
-        "units": "m",
-        "id": "a32b161c4aa9388ba32a06b4d183cdaa",
-        "totalChildrenCount": 0,
-        "area": 1319.8672315959716,
-        "name": "_Copy"
+        "applicationId": "41ae5fbb-83e0-4e92-be5a-383448bfc3f9",
+        "speckle_type": "Base"
       }
     }
   ]

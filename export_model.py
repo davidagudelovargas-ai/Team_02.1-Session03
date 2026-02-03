@@ -17,6 +17,7 @@ from specklepy.objects.base import Base
 
 # TODO: Replace with your project and model IDs
 PROJECT_ID = "128262a20c"
+BRANCH_NAME = "homework/session03/team_02.1_v2"
 MODEL_ID = "e09d9dbeca"
 
 
